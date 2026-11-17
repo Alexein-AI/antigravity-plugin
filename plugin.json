@@ -1,0 +1,22 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "alexein-ai",
+  "displayName": "Alexein AI",
+  "description": "Long-term memory for your agents: search what you have told Alexein before and save what you learn, across sessions and apps.",
+  "version": "1.0.0",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "What do you remember about me?",
+    "Remember that I prefer TypeScript over JavaScript.",
+    "What did I decide last week about this project?"
+  ],
+  "author": {
+    "name": "Alexein AI",
+    "email": "zainali@alexein.ai",
+    "url": "https://alexein.ai"
+  },
+  "homepage": "https://docs.alexein.ai/mcp",
+  "repository": "https://github.com/Alexein-AI/antigravity-plugin",
+  "license": "MIT",
+  "keywords": ["memory", "mcp", "personal", "productivity", "alexein"]
+}

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "memory": {
+      "serverUrl": "https://api.alexein.ai/v1/mcp"
+    }
+  }
+}
