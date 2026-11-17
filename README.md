@@ -27,3 +27,20 @@ plugin, or disconnect Antigravity in the Alexein app under **AI assistants**.
 
 [docs.alexein.ai/mcp](https://docs.alexein.ai/mcp) · zainali@alexein.ai · [Privacy](https://alexein.ai/legal/privacy) ·
 [Terms](https://alexein.ai/legal/terms)
+
+## Recall and saving sessions (optional API key)
+
+The plugin also adds hooks for the Antigravity CLI (`hooks.json`) and an always-on rule, `rules/AGENTS.md`, with the note on how to use the memory tools. Without an API key they only keep that rule; nothing is read or sent.
+
+With a key in `ALEXEIN_API_KEY` (a personal key from **My memory › Keys** in the Alexein app, **Read and write**;
+or `api_key` in `~/.config/alexein/hooks.json`):
+
+- **Recall.** The first message of each session is looked up in your memory and the best matches are added as
+  context before the model is called. One search per session.
+- **Saving sessions.** What you ask and the agent's final replies are saved to your memory, with the names of files
+  changed and commands run (never their contents or output), five exchanges at a time. Anything that looks like a
+  password, key or token is removed first. `ALEXEIN_CAPTURE=false` keeps recall and saves nothing.
+
+`python3 <plugin>/scripts/alexein_hooks.py run antigravity pause` (or `resume`, `status`) turns this off and on. The
+hooks need `python3`; they are the same script as the Claude Code plugin's
+([claude-plugins](https://github.com/Alexein-AI/claude-plugins)).
