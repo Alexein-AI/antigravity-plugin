@@ -4,6 +4,14 @@ Gives your Antigravity agents your [Alexein](https://alexein.ai) memory: they se
 answering, and save what they learn as you work, so the next session, and your other apps, pick up where this one
 left off.
 
+## One memory across your AI tools
+
+Alexein is your own memory, not your agents's. Connect it to the other AI tools you use too (Claude, ChatGPT,
+Cursor, GitHub Copilot and more) and they all share it: a preference you mention in one, a decision you make in
+another, or a detail about your project is there for your agents the next time it matters, and the other way round.
+It also holds what you chose to connect to Alexein, such as Slack, GitHub or email, so answers can come from your
+team's conversations and past decisions, not only this chat.
+
 ## Install
 
 ```

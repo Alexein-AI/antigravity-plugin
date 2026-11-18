@@ -2,7 +2,7 @@
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "alexein-ai",
   "displayName": "Alexein AI",
-  "description": "Long-term memory for your agents: search what you have told Alexein before and save what you learn, across sessions and apps.",
+  "description": "Your personal memory, shared across Antigravity, Claude, ChatGPT, Cursor and your other AI tools: your agents search what you have told any of them and save what they learn.",
   "version": "1.0.0",
   "logo": "assets/logo.png",
   "suggestedPrompts": [
