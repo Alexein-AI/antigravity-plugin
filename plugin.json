@@ -3,7 +3,7 @@
   "name": "alexein-ai",
   "displayName": "Alexein AI",
   "description": "Long-term memory for your agents: search what you have told Alexein before and save what you learn, across sessions and apps.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "logo": "assets/logo.png",
   "suggestedPrompts": [
     "What do you remember about me?",
@@ -18,5 +18,11 @@
   "homepage": "https://docs.alexein.ai/mcp",
   "repository": "https://github.com/Alexein-AI/antigravity-plugin",
   "license": "MIT",
-  "keywords": ["memory", "mcp", "personal", "productivity", "alexein"]
+  "keywords": [
+    "memory",
+    "mcp",
+    "personal",
+    "productivity",
+    "alexein"
+  ]
 }
