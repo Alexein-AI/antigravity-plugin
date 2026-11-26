@@ -3,7 +3,7 @@
   "name": "alexein-ai",
   "displayName": "Alexein AI",
   "description": "Your personal memory, shared across Antigravity, Claude, ChatGPT, Cursor and your other AI tools: your agents search what you have told any of them and save what they learn.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "logo": "assets/logo.png",
   "suggestedPrompts": [
     "What do you remember about me?",
